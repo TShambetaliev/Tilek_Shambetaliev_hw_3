@@ -28,6 +28,7 @@ public class Main {
         }
         System.out.println("среднее арифметическое число равен" + sum / kol);
         System.out.println("-----------" );
+
         double[] sortArr = {1.5, -3, 5, 7, 8, 11, 13, 6, 20, 13, 95, 63, 4, 5.5, 15};
         bubbleSort(sortArr);
         for(int i = 0; i < sortArr.length; i++){
