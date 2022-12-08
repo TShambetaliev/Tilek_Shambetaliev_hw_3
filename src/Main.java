@@ -8,7 +8,7 @@ public class Main {
 
             System.out.println(Arrays.toString(numbers));
             double sum = 0.0;
-            int mass = 0;
+            int kol = 0;
 
             for (int i = 0; i < numbers.length; i++) {
                 if (numbers[i] < 0) {
@@ -16,14 +16,14 @@ public class Main {
                         if (numbers[j] > 0) {
                             sum = sum + numbers[j];
 
-                            mass++;
+                            kol++;
                         }
                     }
                     break;
                 }
             }
             System.out.println("sum"+sum);
-            System.out.println("kolichestvo"+mass);
-            System.out.println("sum/kolichestvo"+sum/mass);
+            System.out.println("kolichestvo"+kol);
+            System.out.println("sum/kolichestvo"+sum/kol;
         }
     }
